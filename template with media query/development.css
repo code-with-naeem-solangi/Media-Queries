@@ -1,0 +1,134 @@
+body{
+    padding: 0;
+    margin: 0;
+background-color: rgb(165, 185, 136);
+}
+a{
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+i{
+    
+position: absolute;
+}
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-left: 25px;
+    width: 100px;
+    margin-right: 23px;
+    background-color: rgb(210, 183, 27);
+    font-size: 20px;
+}
+input:focus-visible{
+    outline: 0;
+}
+nav{ 
+    /* position: fixed; */
+    width: 99%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    background-color: rgb(210, 183, 27);
+    padding-bottom: 10px;
+    font-size: 20px;
+  
+}
+a:hover{
+  background-color: beige;
+  padding-top: 50px;
+  padding-bottom: 13px;
+}
+.bg-img{
+    background-image: url(./web\ developr\ perfect.jpg);
+   height: 100vh;
+   background-size: cover;
+   display: block;
+}
+.sec-one{
+    background-color: rgb(179, 149, 113);
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+li{
+ padding-top: 20px;
+ font-size: 20px;
+}
+h1{
+    text-align: center;
+    color: rgb(55, 36, 147);
+}
+.img-two{
+   width: 1050px;
+   margin-top: 20px;
+   margin-left: 100px;
+   
+}
+.sec-two{
+    background-color: rgb(179, 149, 113);
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.imegs-pairant{
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: wheat;
+}
+.imgs{
+    width: 400px;
+    padding-top: 10px;
+   padding-bottom: 10px;
+}
+@media (max-width:730px){
+    .bg-img{
+        width: 730px;
+    }
+    nav{
+        width: 690px;
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+ input{
+    width: 70px;
+ }
+    .sec-one{
+        width: 520px;
+        margin-left: 70px;
+        background-color: rgb(147, 183, 171);
+    }
+    h1{
+        color: rgb(86, 66, 41);
+    }
+ .img-two{
+    margin-left: 70px;
+    width: 600px;
+ }
+  .sec-two{
+    margin-left: 70px;
+   padding-bottom: 10px;
+   width: 600px;
+   border-radius: 15px;
+  }
+  .imgs{
+    width: 100%;
+  }
+  .imegs-pairant{
+    margin-left: 70px;
+    width: 600px;
+    border-radius: 15px;
+  }
+}
