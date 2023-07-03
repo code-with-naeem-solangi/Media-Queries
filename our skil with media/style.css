@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+.width-div{
+    width: 40%;    
+}
+.width-div-two{
+    width: 45%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bg-color{
+    width: 100%;
+    background-color: lightcoral;
+    
+}
+.bg-color-two{
+    background-color: lightblue;
+    width: 90%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.center-one{
+    margin-left: 50%;
+}
+.center-two{
+    margin-left: 45%;
+}
+.center-three{
+    margin-left: 40%;
+}
+.bg-color-two-one{
+    width: 80%;
+    background-color: lightblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.bg-color-two-two{
+    width: 75%;
+    background-color: lightblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+@media (max-width:720px){
+   
+    .d-flex{
+        display: block;
+        padding-left: 70px;
+        padding-top: 40px;
+        background-color: rgb(119, 200, 172);
+    }
+    .width-div{
+        width: 90%;
+       
+    }
+    .width-div-two{
+        width: 90%;
+    }
+    .bg-color-two{
+        background-color: rgb(182, 162, 66);
+    }
+    .bg-color-two-one{
+        background-color: rgb(182, 162, 66);
+    }
+    .bg-color-two-two{
+        background-color: rgb(182, 162, 66);
+    }
+    .bg-color{
+        background-color: rgb(181, 99, 139);
+    }
+}
