@@ -1,0 +1,210 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(125, 193, 57);
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.width-div {
+    width: 40%;
+}
+
+.width-div-two {
+    width: 45%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bg-color {
+    width: 100%;
+    background-color: lightcoral;
+
+}
+
+.bg-color-two {
+    background-color: lightblue;
+    width: 90%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.center-one {
+    margin-left: 50%;
+}
+
+.center-two {
+    margin-left: 45%;
+}
+
+.center-three {
+    margin-left: 40%;
+}
+
+.bg-color-two-one {
+    width: 80%;
+    background-color: lightblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.bg-color-two-two {
+    width: 75%;
+    background-color: lightblue;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+.text-pairnt {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.card-pairnt {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.chaid-one {
+    width: 30%;
+    background-color: aquamarine;
+}
+
+.chaid-one-one {
+    background-color: black;
+    color: white;
+    margin-left: -1px;
+    padding-top: 36px;
+    padding-bottom: 28px;
+    font-size: 30px;
+}
+
+.chaid-two-one {
+    background-color: red;
+    color: white;
+    margin-left: -1px;
+    border: none;
+    padding-top: 36px;
+    padding-bottom: 28px;
+    font-size: 30px;
+
+}
+
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+button {
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+@media (max-width:520px) {
+    body {
+        background-color: aquamarine;
+    }
+
+    .d-flex {
+        display: block;
+        padding-left: 70px;
+        padding-top: 40px;
+        background-color: rgb(119, 200, 172);
+    }
+
+    .width-div {
+        width: 90%;
+
+    }
+
+    .width-div-two {
+        width: 90%;
+    }
+
+    .bg-color-two {
+        background-color: rgb(182, 162, 66);
+    }
+
+    .bg-color-two-one {
+        background-color: rgb(182, 162, 66);
+    }
+
+    .bg-color-two-two {
+        background-color: rgb(182, 162, 66);
+    }
+
+    .bg-color {
+        background-color: rgb(181, 99, 139);
+    }
+
+    .text-pairnt {
+        color: black;
+    }
+
+    .card-pairnt {
+        display: block;
+
+
+
+
+
+    }
+
+    button {
+
+        margin-bottom: 20px;
+        color: white;
+        background-color: orangered;
+    }
+
+    .chaid-one {
+        align-items: center;
+        background-color: rgb(85, 87, 67);
+        color: white;
+        width: 75%;
+        margin-left: 10%;
+        margin-right: 20%;
+
+
+    }
+
+    .chaid-one-one {
+        background-color: gray;
+
+    }
+
+}
