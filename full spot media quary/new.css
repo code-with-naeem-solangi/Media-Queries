@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 146, 146);
+}
+.one{
+ width: 33%;
+ margin-top: 3px;
+ /* padding-top: 10px;
+ padding-left: 20px; */
+}
+.two{
+    display: flex;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-left: 80px; */
+ /* display: block; */
+}
+@media (max-width:520px){
+    body{
+        background-color: rgb(96, 96, 204);
+    }
+    .one{
+     width: 90%;
+     padding-top: 4px;
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
