@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-pairant{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 251, 0);
+    height: 30px;
+    padding-top: 15px;
+}
+.mobile-show{
+    display: none;
+}
+.img{
+    background-image: url(./image1.png
+    );
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+}
+.babar-azam{
+    color: white;
+    text-align: center;
+    padding-top: 30%;
+    display: none;
+}
+.best-view{
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding-top: 30%;
+}
+.best-two{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30%;
+    display: none;
+}
+@media (max-width:700px) {
+    .mobile-show{
+        display: block;
+    }
+    .div-one{
+        color: rgb(180, 26, 100);
+    }
+    .large-show{
+        display: none;
+    }
+    .nav-pairant{
+        background-color: black;
+        color: white;
+    }
+    .img{
+        background-image: url(./images\ \(1\).jpg);
+        height: 100vh;
+       
+    }
+    .best-view{
+        display: none;
+    }
+    .best-two{
+        display: block;
+       
+    }
+}
+/* for tablet view */
+@media (max-width:500px) {
+    .mobile-show{
+        display: block;
+    }
+    .div-one{
+        color: rgb(255, 255, 255);
+    }
+    .large-show{
+        display: none;
+    }
+    .nav-pairant{
+        background-color: rgb(0, 211, 243);
+        color: rgb(0, 0, 0);
+    }
+    .img{
+        background-image: url(./shaheen.jpg);
+        /* height: 100vh; */
+    }
+    .babar-azam{
+        display: block;
+        color: rgb(0, 0, 0);
+        padding-top: 250px;
+    }
+    .best-view{
+        display: none;
+    }
+    .best-two{
+        display: none;
+    }
+}
