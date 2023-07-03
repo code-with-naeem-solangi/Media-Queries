@@ -1,0 +1,20 @@
+.teacher {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 40px;
+  }
+  .show-mobile {
+    display: none;
+  }
+  @media (max-width: 700px) {
+    .show-mobile {
+      display: block;
+    }
+    .hide-mobile {
+      display: none;
+    }
+  }
+  
